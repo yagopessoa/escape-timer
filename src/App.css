@@ -1,0 +1,129 @@
+html{
+  background-color: black;
+  height: inherit;
+}
+
+.body{
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.timer {
+  color: red;
+  font-size: 30em;
+}
+
+.timer-num { 
+  color: red;
+  font-size: 35em;
+  font-family: 'Segment7Standard'; 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+.timer-container {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.botao {
+  margin: 36px;
+  margin-top: 0px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 1360px) {
+  .timer {
+    font-size: 25em;
+  }
+  
+  .timer-num { 
+    font-size: 30em;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .timer {
+    font-size: 20em;
+  }
+  
+  .timer-num { 
+    font-size: 25em;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
+  .timer {
+    font-size: 15em;
+  }
+  
+  .timer-num { 
+    font-size: 20em;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .timer {
+    font-size: 10em;
+  }
+  
+  .timer-num { 
+    font-size: 15em;
+  }
+
+  .botoes {
+    margin-top: 18px;
+  }
+
+  .botoes {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .timer {
+    font-size: 5em;
+  }
+  
+  .timer-num { 
+    font-size: 5em;
+  }
+}
