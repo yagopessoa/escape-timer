@@ -4,7 +4,7 @@ import { Button } from '@material-ui/core';
 class Cronometro extends Component {
     state = {
         seconds: 1500,
-        min: 20,
+        min: 25,
         seg: 0,
         zeroMin: '',
         zeroSeg: '0',
@@ -56,8 +56,8 @@ class Cronometro extends Component {
 
     handleReset = () => {
         this.setState({ 
-            seconds: 1200,
-            min: 20,
+            seconds: 1500,
+            min: 25,
             seg: 0,
             zeroMin: '',
             zeroSeg: '0',
