@@ -3,7 +3,7 @@ import { Button } from '@material-ui/core';
 
 class Cronometro extends Component {
     state = {
-        seconds: 1200,
+        seconds: 1500,
         min: 20,
         seg: 0,
         zeroMin: '',
