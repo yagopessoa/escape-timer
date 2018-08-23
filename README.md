@@ -6,10 +6,14 @@ Aplicação simples de timer para escape game, com função de penalidade (-30s)
 
 Ter Node.Js e Npm instalado.
 
-## Uso
+## Rodar o projeto
 
 Entre no diretório do projeto e rode os comandos:
 
 `npm install`
 
 `npm start`
+
+## Uso
+
+https://yagopessoa.github.io/escape-timer/
